@@ -56,23 +56,23 @@ Strict extended firewall filtering rules were bound to the sub-interface gateway
 ### Execution Screenshots
 
 #### 1. Hierarchical Topology Implementation
-KCB NETWORK TOPOLOGY.png
+https://github.com/NeverwalkaloneNetworking/KCB-BANK-KENYA/blob/main/Proof%20that%20NAT%20is%20working.png
 > **Verification Note:** Displays the structural layout consisting of the `KCB-RTR` edge routing platform, the high-performance `KCB-CORE` multi-layer hub, and the downstream client access switches.
 
 #### 2. Dynamic Addressing Matrix (DHCP)
-*[Insert screenshot of TELLER-PC or MGMT-PC Desktop IP configuration]*
+*DHCP Verification.png*
 > **Verification Note:** Confirms that endpoints successfully escape default autoconfiguration and lease valid, structured network parameters across independent broadcast domains.
 
 #### 3. Perimeter Firewall Restrictions (ACL Tests)
-*[Insert screenshot of the Teller browser loading the secure page, alongside a failed ping window]*
+*Proof that NAT is Working*
 > **Verification Note:** Hard evidence of protocol compliance. The Teller node successfully communicates over HTTPS to the secure database web application, while a simultaneous ICMP Ping request is explicitly dropped by the router's firewall filter policy.
 
 #### 4. Guest WiFi Quarantine Isolation Audit
-*[Insert screenshot of GUEST-PC command prompt trying to ping internal resources]*
+*Proof that NAT is working*
 > **Verification Note:** Proves complete environment isolation. All attempts by guest assets to poll internal infrastructure segments return an immediate block message.
 
 #### 5. Edge Translation Map (Static NAT)
-*[Insert screenshot of the KCB-RTR terminal running: show ip nat translations]*
+*Nat Translation*
 > **Verification Note:** Displays the live network address translation table mapping the private DMZ address (`192.168.30.14`) securely to the public-facing edge WAN block (`196.201.45.3`).
 
 ---
