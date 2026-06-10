@@ -56,7 +56,7 @@ Strict extended firewall filtering rules were bound to the sub-interface gateway
 ### Execution Screenshots
 
 #### 1. Hierarchical Topology Implementation
-*[Insert your full Packet Tracer canvas screenshot here]*
+KCB NETWORK TOPOLOGY.png
 > **Verification Note:** Displays the structural layout consisting of the `KCB-RTR` edge routing platform, the high-performance `KCB-CORE` multi-layer hub, and the downstream client access switches.
 
 #### 2. Dynamic Addressing Matrix (DHCP)
